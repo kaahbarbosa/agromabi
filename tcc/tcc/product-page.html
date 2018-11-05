@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header>
+		<!-- header -->
+		<div id="header">
+			<div class="container">
+				<div class="text-center">
+					<!-- Logo -->
+					<div class="header-logo">
+						<a class="logo" href="index.html">
+							<img src="./img/petlogo.png" alt="" style="width: 300px; height: 150px;">
+						</a>
+					</div>
+					<!-- /Logo -->
+				</div>
+				<div class="pull-right">
+					<ul class="header-btns">
+					<div class="header-search">
+						<form>
+							<input class="input search-input" type="text" placeholder="Pesquisar no site">
+			
+							<button class="search-btn"><i class="fa fa-search"></i></button>
+						</form>
+						
+					</ul>
+				</div>
+			</div>
+			<!-- header -->
+		</div>
+		<!-- container -->
+		
+	</header>
+	<!-- /HEADER -->
+		<!-- top Header -->
+		<div id="top-header">
+			<div class="container">
+				<div class="pull-right">
+					<ul class="header-top-links">
+						<li><a href="index.html">Home</a></li>
+						<li class="dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Acessórios <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="#">Casinhas </a></li>
+								<li><a href="#">Coleiras </a></li>
+								<li><a href="#">Roupas</a></li>
+								<li><a href="#">Comedouros</a></li>
+							</ul>
+						</li>
+						<li class="dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Ração <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="raçãocachorro.html">Ração de cachorro</a></li>
+								<li><a href="raçãogato.html">Ração de gato</a></li>
+								<li><a href="raçãopassaro.html">Ração de passáro</a></li>
+								<li><a href="#">Ração de ave</a></li>
+								<li><a href="#">Ração de peixe</a></li>
+							</ul>
+						</li>
+						<li class="dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Medicamentos <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="#">Remédio para cachorro</a></li>
+								<li><a href="#">Remédio para cachorro</a></li>
+								<li><a href="#">Remédio para cachorro</a></li>
+								<li><a href="#">Remédio para cachorro</a></li>
+								<li><a href="#">Remédio para cachorro</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Sobre nós</a></li>
+						<li><a href="#">Política de trocas</a></li>
+						<li><a href="#">Contato</a></li>
+						<!-- Account -->
+						<li class="header-account dropdown default-dropdown">
+							<div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-user-o"></i>
+								</div>
+								<strong class="text-uppercase">Minha conta <i class="fa fa-caret-down"></i></strong>
+							</div>
+							<a href="#" class="text-uppercase">Login</a> / <a href="#" class="text-uppercase">Join</a>
+							<ul class="custom-menu">
+								
+								<li><a href="#"><i class="fa fa-heart-o"></i> minha lista de desejos</a></li>
+								
+								
+								<li><a href="#"><i class="fa fa-unlock-alt"></i> Login</a></li>
+								
+							</ul>
+						</li>
+						<!-- /Account -->
+
+						<!-- Cart -->
+						<li class="header-cart dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-shopping-cart"></i>
+									<span class="qty">3</span>
+								</div>
+								<strong class="text-uppercase">Meu carrinho</strong>
+								<br>
+								<span>35.20$</span>
+							</a>
+							<div class="custom-menu">
+								<div id="shopping-cart">
+									<div class="shopping-cart-list">
+										<div class="product product-widget">
+											<div class="product-thumb">
+												<img src="./img/thumb-product01.jpg" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-price">$32.50 <span class="qty">x3</span></h3>
+												<h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
+											</div>
+											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
+										</div>
+										<div class="product product-widget">
+											<div class="product-thumb">
+												<img src="./img/thumb-product01.jpg" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-price">$32.50 <span class="qty">x3</span></h3>
+												<h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
+											</div>
+											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
+										</div>
+									</div>
+									<div class="shopping-cart-btns">
+										<button class="main-btn">View Cart</button>
+										<button class="primary-btn">Checkout <i class="fa fa-arrow-circle-right"></i></button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- /Cart -->
+
+						<!-- Mobile nav toggle-->
+						<li class="nav-toggle">
+							<button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+						</li>
+						<!-- / Mobile nav toggle -->
+					
+					</ul>
+				</div>
+			
+		<!-- /top Header -->
+	
+	<!-- /NAVIGATION -->
+
+	
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!--  Product Details -->
+				<div class="product product-details clearfix">
+					<div class="col-md-6">
+						<div id="product-main-view">
+							<div class="product-view">
+								<img src="./img/pedigree.png" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/pedigree.png" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/pedigree.png" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/pedigree.jpg" alt="">
+							</div>
+						</div>
+						<div id="product-view">
+							<div class="product-view">
+								<img src="./img/thumb-product01.jpg" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/thumb-product02.jpg" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/thumb-product03.jpg" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/pedigree.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="product-body">
+							<div class="product-label">
+								<span>Novo</span>
+								
+							</div>
+							<h2 class="product-name">PEDIGREE® Equilíbrio Natural Adulto Raças Médias e Grandes</h2>
+							<h3 class="product-price">R$145.99 <del class="product-old-price"></del></h3>
+							<div>
+								<div class="product-rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o empty"></i>
+								</div>
+								<a href="#">3 Opiniões / Adicionar opinião </a>
+							</div>
+							O novo PEDIGREE® Equilíbrio Natural é um alimento que ajuda a equilibrar o organismo do seu cão de forma irresistível. Isso porque ele oferece em sua fórmula grãos integrais e suculentos pedaços macios sabor carne, fontes naturais de proteínas, carboidratos e vitaminas. Além disso, não tem gordura trans nem aromatizantes artificiais. Seu cão tem muito mais para viver ainda, e qualidade de vida começa com uma alimentação mais saudável e equilibrada.
+
+Fibras de fontes 100% naturais
+Feito com grãos integrais e polpa de beterraba, que fornecem um balanço adequado de fibra, contribuindo para uma vida equilibrada.
+Irresistível
+Com suculentos pedaços macios sabor carne cuidadosamente cozidos. A combinação de pedaços crocantes e pedaços macios deixa seu cão muito mais feliz.
+Ingredientes selecionados
+Combinação ideal de fontes naturais de proteínas, vitaminas e carboidratos. Além disso, não possui gordura trans nem aromatizantes artificiais.
+							<p><strong>Estoque:</strong> Em estoque</p>
+							<p></p>
+							<div class="product-options">
+								<ul class="size-option">
+									<li><span class="text-uppercase">KG:</span></li>
+									<li class="active"><a href="#">1,5 Kg</a></li>
+									<li><a href="#">10 Kg</a></li>
+									<li><a href="#">15 Kg</a></li>
+								</ul>
+							</div>
+
+							<div class="product-btns">
+								<div class="qty-input">
+									<span class="text-uppercase">QuanTidade: </span>
+									<input class="input" type="number">
+								</div>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="product-tab">
+							<ul class="tab-nav">
+								<li class="active"><a data-toggle="tab" href="#tab1">Descrição</a></li>
+								<li><a data-toggle="tab" href="#tab1">Detalhes</a></li>
+								<li><a data-toggle="tab" href="#tab2">Opiniões (3)</a></li>
+							</ul>
+							<div class="tab-content">
+								<div id="tab1" class="tab-pane fade in active">
+									<p>O novo PEDIGREE® Equilíbrio Natural é um alimento que ajuda a equilibrar o organismo do seu cão de forma irresistível. Isso porque ele oferece em sua fórmula grãos integrais e suculentos pedaços macios sabor carne, fontes naturais de proteínas, carboidratos e vitaminas. Além disso, não tem gordura trans nem aromatizantes artificiais. Seu cão tem muito mais para viver ainda, e qualidade de vida começa com uma alimentação mais saudável e equilibrada.</p>
+								</div>
+								<div id="tab2" class="tab-pane fade in">
+
+									<div class="row">
+										<div class="col-md-6">
+											<div class="product-reviews">
+												<div class="single-review">
+													<div class="review-heading">
+														<div><a href="#"><i class="fa fa-user-o"></i> John</a></div>
+														<div><a href="#"><i class="fa fa-clock-o"></i> 27 DEC 2017 / 8:0 PM</a></div>
+														<div class="review-rating pull-right">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star-o empty"></i>
+														</div>
+													</div>
+													<div class="review-body">
+														<p>Ração de ótima qualidade e preço justo.</p>
+													</div>
+												</div>
+
+												<div class="single-review">
+													<div class="review-heading">
+														<div><a href="#"><i class="fa fa-user-o"></i> Maria</a></div>
+														<div><a href="#"><i class="fa fa-clock-o"></i> 12 SET 2010 / 7:10 PM</a></div>
+														<div class="review-rating pull-right">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star-o empty"></i>
+														</div>
+													</div>
+													<div class="review-body">
+														<p>Preço mais baixo da baixada santista.</p>
+													</div>
+												</div>
+
+												<div class="single-review">
+													<div class="review-heading">
+														<div><a href="#"><i class="fa fa-user-o"></i> João</a></div>
+														<div><a href="#"><i class="fa fa-clock-o"></i> 26 DEC 2018 / 8:0 PM</a></div>
+														<div class="review-rating pull-right">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star-o empty"></i>
+														</div>
+													</div>
+													<div class="review-body">
+														<p>Loja muito boa e atendimento nota 10.</p>
+													</div>
+												</div>
+
+												<ul class="reviews-pages">
+													<li class="active">1</li>
+													<li><a href="#">2</a></li>
+													<li><a href="#">3</a></li>
+													<li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<h4 class="text-uppercase">Deixe seu comentário</h4>
+											<p>Seu email não será publicado.</p>
+											<form class="review-form">
+												<div class="form-group">
+													<input class="input" type="text" placeholder="Seu Nome" />
+												</div>
+												<div class="form-group">
+													<input class="input" type="email" placeholder="E-mail " />
+												</div>
+												<div class="form-group">
+													<textarea class="input" placeholder="Seu comentário"></textarea>
+												</div>
+												<div class="form-group">
+													<div class="input-rating">
+														<strong class="text-uppercase">Sua classificação: </strong>
+														<div class="stars">
+															<input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+															<input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+															<input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+															<input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+															<input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+														</div>
+													</div>
+												</div>
+												<button class="primary-btn">Enviar</button>
+											</form>
+										</div>
+									</div>
+
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- /Product Details -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h2 class="title">Produtos que você pode gostar</h2>
+					</div>
+				</div>
+				<!-- section title -->
+
+				<!-- Product Single -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="product product-single">
+						<div class="product-thumb">
+							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+							<img src="./img/pedigree2.png" alt="">
+						</div>
+						<div class="product-body">
+							<h3 class="product-price">R$112.99</h3>
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o empty"></i>
+							</div>
+							<h2 class="product-name"><a href="equilibrio-natural.html">PEDIGREE® Equilíbrio Natural</a></h2>
+							<div class="product-btns">
+								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Product Single -->
+
+				<!-- Product Single -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="product product-single">
+						<div class="product-thumb">
+							<div class="product-label">
+								<span>Novo</span>
+							</div>
+							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+							<img src="./img/whiskas/pe.png" alt="">
+						</div>
+						<div class="product-body">
+							<h3 class="product-price">R$2.99</h3>
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o empty"></i>
+							</div>
+							<h2 class="product-name"><a href="#"> 
+PEDIGREE® Lata Sabor Carne ao Molho</a></h2>
+							<div class="product-btns">
+								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Product Single -->
+
+				<!-- Product Single -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="product product-single">
+						<div class="product-thumb">
+							<div class="product-label">
+								<span class="sale">-20%</span>
+							</div>
+							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+							<img src="./img/pedigree3.png" alt="">
+						</div>
+						<div class="product-body">
+							<h3 class="product-price">R$112.50 
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o empty"></i>
+							</div>
+							<h2 class="product-name"><a href="#">PEDIGREE® VITAL- PRO™ ADULTO RAÇAS PEQUENAS</a></h2>
+							<div class="product-btns">
+								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Product Single -->
+
+				<!-- Product Single -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="product product-single">
+						<div class="product-thumb">
+							<div class="product-label">
+								
+							</div>
+							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+							<img src="./img/whiskas/4.png" alt="">
+						</div>
+						<div class="product-body">
+							<h3 class="product-price">R$5.99
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o empty"></i>
+							</div>
+							<h2 class="product-name"><a href="#">PEDIGREE® BISCROK® Adulto Raças Grandes</a></h2>
+							<div class="product-btns">
+								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Product Single -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+
+	<!-- FOOTER -->
+	<footer id="footer" class="section section-grey">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<!-- footer logo -->
+						<div class="footer-logo">
+							<a class="logo" href="#">
+		            <img src="./img/logo.png" alt="">
+		          </a>
+						</div>
+						<!-- /footer logo -->
+
+					
+
+						<!-- footer social -->
+						<ul class="footer-social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+						<!-- /footer social -->
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Minha conta</h3>
+						<ul class="list-links">
+							<li><a href="#">Minha conta</a></li>
+							<li><a href="#">Minha lista</a></li>
+							
+							<li><a href="#">Login</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<div class="clearfix visible-sm visible-xs"></div>
+
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Serviço ao cliente</h3>
+						<ul class="list-links">
+							<li><a href="#">Sobre nós</a></li>
+							<li><a href="#">Envio e devolução</a></li>
+							<li><a href="#">Tipos de envio</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<!-- footer subscribe -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Ficar conectado</h3>
+						<p>Quer receber promoções, descontos e novidades? cadastre o seu e-mail</p>
+						<form>
+							<div class="form-group">
+								<input class="input" placeholder="Cadastre o seu e-mail">
+							</div>
+							<button class="primary-btn">Cadastrar</button>
+						</form>
+					</div>
+				</div>
+				<!-- /footer subscribe -->
+			</div>
+			<!-- /row -->
+			<hr>
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados do modelo para a empresa <a href="https://infotec.com" target="_blank">INFOTEC</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</div>
+					<!-- /footer copyright -->
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

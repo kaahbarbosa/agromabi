@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title> Pet Shop AGROMABI</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header>
+		
+
+		<!-- header -->
+		<div id="header">
+			<div class="container">
+				<div class="pull-left">
+					<!-- Logo -->
+					<div class="header-logo">
+						<a class="logo" href="index.html">
+							<img src="./img/petlogo2.png" alt="" style="width: 190px; height: 150px;">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Search -->
+					<div class="header-search">
+						<form>
+							<input class="input search-input" type="text" placeholder="Pesquisar no site">
+							
+							<button class="search-btn"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+					<!-- /Search -->
+				</div>
+				<div class="pull-right">
+					<ul class="header-btns">
+						<!-- Account -->
+						<li class="header-account dropdown default-dropdown">
+							<div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-user-o"></i>
+								</div>
+								<strong class="text-uppercase">Minha Conta <i class="fa fa-caret-down" ></i></strong>
+							</div>
+							
+							<ul class="custom-menu">
+								<li><a href="#"><i class="fa fa-heart-o"></i> Lista de desejo</a></li>
+								<li><a href="login.html"><i class="fa fa-unlock-alt"></i> Login</a></li>
+								<li><a href="checkout.html"><i class="fa fa-user-plus"></i> Criar Conta</a></li>
+							</ul>
+						</li>
+						<!-- /Account -->
+
+						<!-- Cart -->
+						<li class="header-cart dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-shopping-cart" ></i>
+									<span class="qty">1</span>
+								</div>
+								<strong class="text-uppercase">Meu Carrinho:</strong>
+								<br>
+								
+							</a>
+							<div class="custom-menu">
+								<div id="shopping-cart">
+									<div class="shopping-cart-list">
+										<div class="product product-widget">
+											<div class="product-thumb">
+												<img src="./img/pedigree.png" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-price">R$32,50 <span class="qty">x3</span></h3>
+												<h2 class="product-name"><a href="#">Pedigree </a></h2>
+											</div>
+											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
+										</div>
+										
+									</div>
+									<div class="shopping-cart-btns">
+										<button class="main-btn">Visualizar Carrinho</button>
+										<button class="primary-btn">Finalizar compra <i class="fa fa-arrow-circle-right"></i></button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- /Cart -->
+
+						<!-- Mobile nav toggle-->
+						<li class="nav-toggle">
+							<button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+						</li>
+						<!-- / Mobile nav toggle -->
+					</ul>
+				</div>
+			</div>
+			<!-- header -->
+		</div>
+		<!-- container -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<div id="navigation">
+		<!-- container -->
+		<div class="container">
+			<div id="responsive-nav">
+				
+
+				<!-- menu nav -->
+				<div class="menu-nav">
+					<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
+					<ul class="menu-list">
+						<li><a href="#">Home</a></li>
+						
+						<li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Cachorro <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categorias</h3></li>
+											<li><a href="raçãocachorro.html">Ração</a></li>
+											<li><a href="shampoo.html">Higiene</a></li>
+											<li><a href="medicaçãocachorro.html">Medicamentos</a></li>
+											<li><a href="#">Acessórios</a></li>
+											
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									
+								</div>
+								
+							</div>
+						</li>
+						<li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Gato <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categorias</h3></li>
+											<li><a href="raçãogato.html">Ração</a></li>
+											<li><a href="shampoogato.html">Higiene</a></li>
+											<li><a href="medicaçãogato.html">Medicamentos</a></li>
+											<li><a href="#">Acessórios</a></li>
+											
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									
+								</div>
+								
+							</div>
+						</li>
+						<li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Passáro <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categorias</h3></li>
+											<li><a href="raçãopassáro.html">Ração</a></li>
+											<li><a href="medicaçãopassáro.html">Medicamentos</a></li>
+											<li><a href="#">Acessórios</a></li>
+											
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									
+								</div>
+								
+							</div>
+						</li>
+						<li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Peixe <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categorias</h3></li>
+											<li><a href="raçãopeixe.html">Ração</a></li>
+											<li><a href="aquário.html">Aquário</a></li>
+											<li><a href="medicaçãopeixe.html">Medicamentos</a></li>
+											<li><a href="#">Acessórios</a></li>
+											
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									
+								</div>
+								
+							</div>
+						</li>
+						<li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Roedores <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categorias</h3></li>
+											<li><a href="raçãoroedores.html">Ração</a></li>
+											<li><a href="medicaçãoroedores.html">Medicamentos</a></li>
+											<li><a href="#">Acessórios</a></li>
+											
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									
+								</div>
+								
+							</div>
+						</li>
+						<li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Outros animais <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categorias</h3></li>
+											<li><a href="ração.html">Ração</a></li>
+											<li><a href="higiene.html">Higiene</a></li>
+											<li><a href="medicação.html">Medicamentos</a></li>
+											<li><a href="#">Acessórios</a></li>
+											
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									
+								</div>
+								
+							</div>
+						</li>
+						<li><a href="#">Sobre nós</a></li>
+						<li><a href="#">Política de trocas </a></li>
+						
+
+					</ul>
+				</div>
+				<!-- menu nav -->
+			</div>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /NAVIGATION -->
+
+	<!-- BREADCRUMB -->
+	<div id="breadcrumb">
+		<div class="container">
+			<ul class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li class="active">Produtos</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /BREADCRUMB -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- ASIDE -->
+				<div id="aside" class="col-md-3">
+					<!-- aside widget -->
+					<div class="aside">
+						
+
+					</div>
+					<!-- /aside widget -->
+
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">Filtrar por preço</h3>
+						<div id="price-slider"></div>
+					</div>
+					<!-- aside widget -->
+
+					<!-- aside widget -->
+					<div class="aside">
+						
+					</div>
+					<!-- /aside widget -->
+
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">Filtrar por peso:</h3>
+						<ul class="size-option">
+							<li class="active"><a href="#">1kg</a></li>
+							<li class="active"><a href="#">5kg</a></li>
+							<li class="active"><a href="#">10kg</a></li>
+							<li class="active"><a href="#">15kg</a></li>
+							
+						</ul>
+					</div>
+					<!-- /aside widget -->
+
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">Filtrar por marca</h3>
+						<ul class="list-links">
+							<b><li><a href="#">magnum</a></li></b>
+							<b><li><a href="#">pedigree</a></li></b>
+							<b><li><a href="#">golden</a></li></b>
+							<b><li><a href="#">premier</a></li></b>
+							<b><li><a href="#">royal canin</a></li></b>
+						</ul>
+					</div>
+					<button class="primary-btn" style="width: 250px;">Limpar</button>
+					<!-- /aside widget -->
+
+					<!-- aside widget -->
+					
+					<!-- /aside widget -->
+
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">Produtos mais vistos</h3>
+						<!-- widget product -->
+						<div class="product product-widget">
+							<div class="product-thumb">
+								<img src="./img/pedigree.png" alt="">
+							</div>
+							<div class="product-body">
+								<h2 class="product-name"><a href="#">PEDIGREE® Equilíbrio Natural Adulto Raças Pequenas</a></h2>
+								<h3 class="product-price">R$32.50 <del class="product-old-price">$45.00</del></h3>
+								<div class="product-rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o empty"></i>
+								</div>
+							</div>
+						</div>
+						<!-- /widget product -->
+
+						<!-- widget product -->
+						<div class="product product-widget">
+							<div class="product-thumb">
+								<img src="./img/pedigree2.png" alt="">
+							</div>
+							<div class="product-body">
+								<h2 class="product-name"><a href="#">PEDIGREE®  Adulto Sabor Carne ao Molho</a></h2>
+								<h3 class="product-price">R$32.50</h3>
+								<div class="product-rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o empty"></i>
+								</div>
+							</div>
+						</div>
+						<!-- /widget product -->
+					</div>
+					<!-- /aside widget -->
+				</div>
+				<!-- /ASIDE -->
+
+				<!-- MAIN -->
+				<div id="main" class="col-md-9">
+					<!-- store top filter -->
+					<div class="store-filter clearfix">
+						<div class="pull-left">
+							<div class="row-filter">
+								<a href="#"><i class="fa fa-th-large"></i></a>
+								<a href="#" class="active"><i class="fa fa-bars"></i></a>
+							</div>
+							<div class="sort-filter">
+								<span class="text-uppercase">ordernar por:</span>
+								<select class="input">
+										<option value="0">MENOR PREÇO</option>
+										<option value="0">MAIOR PREÇO</option>
+										<option value="0">MAIS VENDIDOS</option>
+									</select>
+								<a href="#" class="main-btn icon-btn"><i class="fa fa-arrow-down"></i></a>
+							</div>
+						</div>
+						<div class="pull-right">
+							<div class="page-filter">
+								<span class="text-uppercase">MOSTRAR:</span>
+								<select class="input">
+										<option value="0">10</option>
+										<option value="1">20</option>
+										<option value="2">30</option>
+									</select>
+							</div>
+							<ul class="store-pages">
+								<li><span class="text-uppercase">Pagina:</span></li>
+								<li class="active">1</li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- /store top filter -->
+
+					<!-- STORE -->
+					<div id="store">
+						<!-- row -->
+						<div class="row">
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+										<img src="./img/pedigree.png" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">R$145.99 <del class="product-old-price"></del></h3>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h2 class="product-name"><a href="product-page.html">PEDIGREE® Equilíbrio Natural Adulto Raças Médias </a></h2>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+										<img src="./img/pedigree2.png" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">R$181.90</h3>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h2 class="product-name"><a href="equilibrio-natural.html">PEDIGREE® Equilíbrio Natural Adulto Raças Pequenas</a></h2>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Adicionar ao carrinho</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-sm visible-xs"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span>Novo</span>
+											<span class="sale">-20%</span>
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+										<img src="./img/pedigree3.png" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">R$115.90 <del class="product-old-price"></del></h3>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h2 class="product-name"><a href="vital-pro.html">PEDIGREE® VITAL- PRO™ ADULTO RAÇAS PEQUENAS</a></h2>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-md visible-lg"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span>Novo</span>
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto </button>
+										<img src="./img/pedigree4.png" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">R$120.90</h3>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h2 class="product-name"><a href="product-page2.html">PEDIGREE® VITAL- PRO™ ADULTO CARNE, FRANGO & CEREAIS</a></h2>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-sm visible-xs"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span>Novo</span>
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+										<img src="./img/pedigree5.png" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">R$115.90</h3>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h2 class="product-name"><a href="#">PEDIGREE® VITAL- PRO™ ADULTO CARNE & VEGETAIS</a></h2>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span>Novo</span>
+											
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+										<img src="./img/pedigree6.png" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">R$32.50 </h3>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h2 class="product-name"><a href="#">PEDIGREE® VITAL- PRO™ ADULTO RAÇAS GRANDES</a></h2>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-md visible-lg visible-sm visible-xs"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span>Novo</span>
+											
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+										<img src="./img/pedigreelata.png" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">R$5.49 <del class="product-old-price"></del></h3>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h2 class="product-name"><a href="#">PEDIGREE® Lata Sabor Frango ao Molho</a></h2>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+										<img src="./img/pedigreelcarne.png" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">R$5.49</h3>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h2 class="product-name"><a href="#">PEDIGREE® Lata Patê Sabor Carne</a></h2>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-sm visible-xs"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Ver produto</button>
+										<img src="./img/LATA.png" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">R$5.49 <del class="product-old-price"></del></h3>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h2 class="product-name"><a href="#">PEDIGREE® Lata Sabor Carne ao Molho</a></h2>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /STORE -->
+
+					<!-- store bottom filter -->
+					<div class="store-filter clearfix">
+						<div class="pull-left">
+							<div class="row-filter">
+								<a href="#"><i class="fa fa-th-large"></i></a>
+								<a href="#" class="active"><i class="fa fa-bars"></i></a>
+							</div>
+							
+									</select>
+								<a href="#" class="main-btn icon-btn"><i class="fa fa-arrow-down"></i></a>
+							</div>
+						</div>
+						<div class="pull-right">
+							<div class="page-filter">
+								<span class="text-uppercase">MOSTRAR:</span>
+								<select class="input">
+										<option value="0">10</option>
+										<option value="1">20</option>
+										<option value="2">30</option>
+									</select>
+							</div>
+							<ul class="store-pages">
+								<li><span class="text-uppercase">Pagina:</span></li>
+								<li class="active">1</li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- /store bottom filter -->
+				</div>
+				<!-- /MAIN -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+	<!-- FOOTER -->
+	<footer id="footer" class="section section-grey">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<!-- footer logo -->
+						<div class="footer-logo">
+							<a class="logo" href="#">
+		            <img src="./img/petlogo.png" alt="">
+		          </a>
+						</div>
+						<!-- /footer logo -->
+
+						
+
+						<!-- footer social -->
+						<ul class="footer-social" style="text-align: center; ">
+							<li><a href="#"><i class="fa fa-facebook" style="font-size: 30px;"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" style="font-size: 30px;"></i></a></li>
+					
+						</ul>
+						<!-- /footer social -->
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Minha conta</h3>
+						<ul class="list-links">
+							<li><a href="#">Minha conta</a></li>
+							<li><a href="#">Minha lista de desejos</a></li>
+							<li><a href="#">Meus pedidos</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<div class="clearfix visible-sm visible-xs"></div>
+
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Serviço ao cliente</h3>
+						<ul class="list-links">
+							<li><a href="#">Sobre nós</a></li>
+							<li><a href="#">Envio e devolução</a></li>
+							<li><a href="#">Formas de envio</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+					<h3 class="footer-header">Dúvidas e reclamações</h3>
+	    			Dúvidas sobre a sua conta ou compra? entre em contato conosco através do nosso e-mail ou telefone.
+	    			<b><a href="#"> agromabi@gmail.com </a> ou (13)3424-1814</b>
+
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				
+			</div>
+			<!-- /row -->
+			<hr>
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados do site para <a href="https://www.infotec.com" target="_blank">INFOTEC</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</div>
+					<!-- /footer copyright -->
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
